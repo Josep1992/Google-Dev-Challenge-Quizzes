@@ -1,0 +1,48 @@
+/* add your CSS here */
+
+body {
+  padding: 5px 50px 5px 50px;
+  width: 300px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 13px 6px 5px rgba(240, 237, 240, 0.78);
+  -moz-box-shadow: 10px 13px 6px 5px rgba(240, 237, 240, 0.78);
+  box-shadow: 10px 13px 6px 5px rgba(240, 237, 240, 0.78);
+  padding: 10px;
+  text-align: left;
+  margin: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  border: 2px solid #f0edf0;
+  padding: 10px;
+  margin-top: 5px;
+  filter: blur(10)
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p:nth-of-type(1) {
+  font-style: italic;
+}
+
+p:nth-of-type(2) {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-left: -35px;
+  font-size: 13px;
+}
+
+ul li span {
+  font-weight: bolder;
+}
