@@ -35,3 +35,41 @@ if (!checkBalance) {
 } else if (balance < 0) {
   console.log("Your balance is negative. Please contact bank.");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$('#getData').on('click', function () {
+
+  $.ajax("http://people.zoho.com/people/api/timetracker/gettimelogs?authtoken=33546399b683c3a52e9daa543775b403&user=fss@ycspr.net&jobId=all&billingStatus=all&fromDate=2018-01-01&toDate=2018-01-30", {
+      jsonp: 'callback',
+      dataType: 'jsonp',
+      jsonpCallback: 'logResults'
+    })
+
+    .then(function (response) {
+      Json.parse(response);
+    })
+
+    .then(function (data) {
+      console.log(data);
+
+    })
+    .catch(function (error) {
+      console.log(error);
+
+    })
+
+
+
+});
