@@ -35,7 +35,7 @@ let bills = [50.23, 19.12, 34.01,
 
 let totals = bills.map(bill => {
   bill = bill * 0.15 + bill;
-  return bill.toFixed(2);
+  return Number(bill.toFixed(2));
 });
 
 console.log(totals);
