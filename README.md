@@ -1,5 +1,8 @@
 # Google Developer Challenge Quizzes
 
-Here are all the quizzes I have work on so Far.
-I will update this repo daily as I keep Advancing trough the courses.
-This repo can be used as reference for other students.
+Quizzes from the Google developer challenge.
+<br/>
+This repositorie will be constantly updated until I finish the scholarship.
+
+Students can use this for reference about the challenge.
+
