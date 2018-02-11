@@ -20,10 +20,6 @@
 
 
 
-/*
- * Programming Quiz: Umbrella (7-1)
- */
-
 var umbrella = {
   color: "pink",
   isOpen: true,
@@ -35,13 +31,14 @@ var umbrella = {
       return "Julia opens the umbrella!";
     }
   },
-  close: function (){
-    if(umbrella.isOpen === false ){
-      return "The umbrella is closed";
-    }else{
-      umbrella.isOpen = true;
+  close: function () {
+    if (umbrella.isOpen === false) {
+      return "The umbrella is already closed";
+    } else {
+      umbrella.isOpen = false;
       return "Julia closed the umbrella";
     }
   }
-  // your code goes here
 };
+
+console.log(umbrella.open());
