@@ -34,9 +34,7 @@ test.forEach(function (num, i, arr) {
   if (num % 3 === 0) {
     arr[i] = num += 100;
   }
-
-
-
+  
 });
 
 console.log(test);
