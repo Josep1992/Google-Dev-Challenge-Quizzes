@@ -1,7 +1,7 @@
 /* add your CSS here */
 
 body {
-  padding: 5px 50px 5px 50px;
+  margin: 20px auto;
   width: 300px;
   border: 1px solid grey;
   border-radius: 5px;
@@ -10,7 +10,6 @@ body {
   box-shadow: 10px 13px 6px 5px rgba(240, 237, 240, 0.78);
   padding: 10px;
   text-align: left;
-  margin: 10px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -18,7 +17,7 @@ body {
   border: 2px solid #f0edf0;
   padding: 10px;
   margin-top: 5px;
-  filter: blur(10)
+  filter: blur(10);
 }
 
 h2 {
